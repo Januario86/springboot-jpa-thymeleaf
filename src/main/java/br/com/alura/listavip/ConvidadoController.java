@@ -12,5 +12,10 @@ public class ConvidadoController {
 		return "index";
 	}
 	
+	@RequestMapping("listaconvidados")
+	public String listaConvidados() {
+		return "listaconvidados";
+	}
+	
 	
 }
